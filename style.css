@@ -5,7 +5,7 @@
     --secondary-blue:rgb(28, 173, 154);
     
     --main-green:rgb(137, 216, 11);
-    --secondary-green:rgb(104, 164, 48);
+    --secondary-green:rgb(183, 247, 65);
 
 }
 
@@ -13,7 +13,7 @@
     padding: 0px;
     margin: 0%;
     border: 0%;
-    font-family: 
+    box-sizing: border-box;
 
 }
 
@@ -47,14 +47,32 @@ div.inferior{
     display: flex;
     justify-content: space-between
 }
-p.money{
-    
-}
+
 div.left-card{
     background-color: var(--main-blue);
     width: 100%; 
     padding: 10px;
 }
+p.mcard{
+    color:white;
+    text-align: center;
+}
+p.money{
+    color:white;
+    font-size: 25px;
+}
 div.right-card{
+    background-color: var(--secondary-blue);
     width: 100%;
+}
+p.why{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+p.text{
+    color:white;
+    opacity: .4;
+    text-indent: 12em;
 }
